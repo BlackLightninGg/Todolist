@@ -1,5 +1,6 @@
 import React, {ChangeEvent, KeyboardEvent, useState} from 'react';
 import {FilterValuesType} from './App';
+import {SuperCheckbox} from "./Components/SuperCheckbox/SuperCheckbox";
 
 type TaskType = {
     id: string
@@ -64,13 +65,11 @@ export function Todolist(props: PropsType) {
         <ul>
             {
                 props.tasks.map(t => {
-                    const onChangeCheckboxHandler = (e: ChangeEvent<HTMLInputElement>) => {
-                        props.changeStatusCheckbox(e.currentTarget.checked, t.id)
-                    }
+
                     const onClickHandler = () => props.removeTask(t.id)
 
                     return <li key={t.id} className={t.isDone? 'is-done': ''}>
-                        <input type="checkbox" checked={t.isDone} onChange={onChangeCheckboxHandler}/>
+                        <SuperCheckbox checked={t.isDone} changeStatusCheckbox={props.changeStatusCheckbox} tasksId={t.id}/>
                         <span>{t.title}</span>
                         <button onClick={onClickHandler}>x</button>
                     </li>
