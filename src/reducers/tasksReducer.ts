@@ -1,36 +1,33 @@
 import { v1 } from "uuid";
-import { TaskType } from "../Todolist"
+import { TasksStateType } from "../App";
 
-export const tasksReducer = (state: TaskType[], action: TsarType): TaskType[] => {
+type ActionType = AddTasksACType
+
+export const tasksReducer = (state: TasksStateType, action: ActionType) => {
     switch (action.type) {
-        case "REMOVE-TASK": {
-            return state.filter(el => el.id !== action.payload.id)
-        }
-        case "ADD-TASK": {
-            let newTask = { id: v1(), title: action.payload.title, isDone: false };
+        case "ADD-TASKS" : {
+            let task = {id: v1(), title: action.payload.title, isDone: false};
+            let todolistTasks = state[action.payload.todolistId];
+            state[action.payload.todolistId] = [task, ...todolistTasks];
 
-            return [newTask, ...state]
+            return {...state}
         }
-        default: return state
+
+        default: {
+            return state
+        }
     }
 }
 
+type AddTasksACType =ReturnType<typeof addTasksAC>
 
-type TsarType = RemoveTaskACType | AddTaskACType
-type RemoveTaskACType = ReturnType<typeof removeTaskAC>
-export const removeTaskAC = (id: string) => {
+export const addTasksAC = ( todolistId: string, title: string) => {
     return {
-        type: "REMOVE-TASK",
-        payload: { id }
-    } as const
+        type: "ADD-TASKS",
+        payload: { 
+            title,
+            todolistId,
+         }  as const
+    }
 }
 
-
-
-type AddTaskACType = ReturnType<typeof addTaskAC>
-export const addTaskAC = (title: string) => {
-    return {
-        type: "ADD-TASK",
-        payload: { title }
-    } as const
-}
