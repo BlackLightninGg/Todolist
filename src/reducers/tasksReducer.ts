@@ -3,7 +3,7 @@ import { TasksStateType } from "../App";
 
 type TasksReducerType = AddTasksACType | RemoveTaskACType | ChangeStatusACType | ChangeTaskTitleACACType
 
-export const tasksReducer = (state: TasksStateType, action: any): TasksStateType => {
+export const tasksReducer = (state: TasksStateType, action: TasksReducerType): TasksStateType => {
     switch (action.type) {
         case "ADD-TASKS": {
             let todolistTasks = state[action.payload.todolistId];
@@ -46,8 +46,8 @@ export const addTasksAC = (todolistId: string, title: string) => {
         payload: {
             todolistId,
             title,
-        } as const
-    }
+        } 
+    } as const
 }
 
 
@@ -59,8 +59,8 @@ export const removeTaskAC = (id: string, todolistId: string) => {
         payload: {
             id,
             todolistId
-        } as const
-    }
+        } 
+    } as const
 }
 
 type ChangeStatusACType = ReturnType<typeof changeStatusAC>
@@ -72,8 +72,8 @@ export const changeStatusAC = (todolistId: string, id: string, isDone: boolean) 
             todolistId,
             id,
             isDone,
-        } as const
-    }
+        } 
+    } as const
 }
 
 type ChangeTaskTitleACACType = ReturnType<typeof changeTaskTitleAC>
@@ -85,6 +85,6 @@ export const changeTaskTitleAC = (todolistId: string, id: string, newTitle: stri
             todolistId,
             id,
             newTitle
-        } as const
-    }
+        } 
+    } as const
 }

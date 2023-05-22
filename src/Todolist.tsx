@@ -4,9 +4,8 @@ import { AddItemForm } from "./AddItemForm";
 import { EditableSpan } from "./EditableSpan";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
-import DeleteIcon from '@mui/icons-material/Delete';
-import Checkbox from '@mui/material/Checkbox';
-
+import DeleteIcon from "@mui/icons-material/Delete";
+import { SuperCheckBox } from "./components/SuperCheckBox";
 
 export type TaskType = {
   id: string;
@@ -72,8 +71,9 @@ export function Todolist(props: PropsType) {
 
           return (
             <li key={t.id} className={t.isDone ? "is-done" : ""}>
+              <SuperCheckBox callBack={onChangeHandler} checked={t.isDone} color={"primary"} />
+                  {/* <Checkbox onChange={onChangeHandler} checked={t.isDone}/> */}
 
-              <Checkbox onChange={onChangeHandler} checked={t.isDone}/>
               <EditableSpan value={t.title} onChange={onTitleChangeHandler} />
               <IconButton aria-label="delete" onClick={onClickHandler}>
                 <DeleteIcon />
