@@ -7,8 +7,8 @@ import { AddItemForm } from './AddItemForm';
 import './App.css';
 import { ButtonAppBar } from './ButtonAppBar';
 import { TaskType, Todolist } from './Todolist';
-import { addTasksAC, changeStatusAC, changeTaskTitleAC, removeTaskAC, tasksReducer } from './reducers/tasksReducer';
-import { addTodolistAC, changeFilterAC, changeTodolistTitleAC, removeTodolistAC, todolistsReducer } from './reducers/todolistsReducer';
+import { addTasksAC, changeStatusAC, changeTaskTitleAC, removeTaskAC, tasksReducer } from './state/tasksReducer';
+import { addTodolistAC, changeFilterAC, changeTodolistTitleAC, removeTodolistAC, todolistsReducer } from './state/todolistsReducer';
 
 export type FilterValuesType = "all" | "active" | "completed";
 
@@ -45,9 +45,9 @@ function App() {
     });
 
     function addTodolist(title: string) {
-        let newTodolistId = v1();
-        dispatchTasks(addTasksAC(newTodolistId, ""))
-        dispatchTodolists(addTodolistAC(newTodolistId, title))
+        let newTodolist = addTodolistAC(title);
+        dispatchTasks(newTodolist);
+        dispatchTodolists(newTodolist);
 
     }
     
