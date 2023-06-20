@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24b16dbf-0f37-440f-9f30-0643e13c6bab" name="Changes" comment="Installed and learned storybook, created stories for AddItemForm, Task and EditableSpan">
-      <change afterPath="$PROJECT_DIR$/src/stories/AppWithRedux.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/ReduxStoreProviderDecorator.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/TaskRedux.stories.tsx" afterDir="false" />
+    <list default="true" id="24b16dbf-0f37-440f-9f30-0643e13c6bab" name="Changes" comment="Added AppWithReduxStory and created and learned decorator (ReduxStoreProviderDecorator)">
+      <change afterPath="$PROJECT_DIR$/integration/addItemForm.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/setupTests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddItemForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,13 +71,14 @@
       <test-file value="$PROJECT_DIR$/src/state/tasks-reducer.test.ts" />
       <method v="2" />
     </configuration>
-    <configuration name="user-reducer.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="jest:integration" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="jest:integration" />
+      </scripts>
       <node-interpreter value="project" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/state/user-reducer.test.tsx" />
       <method v="2" />
     </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -108,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.jest:integration" />
         <item itemvalue="npm.storybook" />
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.test" />
+        <item itemvalue="npm.start" />
         <item itemvalue="Jest.tasks-reducer.test.ts" />
-        <item itemvalue="Jest.user-reducer.test.tsx" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +153,7 @@
       <workItem from="1687195140730" duration="1632000" />
       <workItem from="1687196820259" duration="5298000" />
       <workItem from="1687286152633" duration="2085000" />
+      <workItem from="1687290835669" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="Added opportunity add todo lists and rename title todo list with  title tasks">
       <created>1683654782127</created>
