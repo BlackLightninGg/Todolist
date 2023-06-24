@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24b16dbf-0f37-440f-9f30-0643e13c6bab" name="Changes" comment="Added AppWithReduxStory and created and learned decorator (ReduxStoreProviderDecorator)">
-      <change afterPath="$PROJECT_DIR$/integration/addItemForm.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integration/setupTests.js" afterDir="false" />
+    <list default="true" id="24b16dbf-0f37-440f-9f30-0643e13c6bab" name="Changes" comment="wsedagawr">
+      <change afterPath="$PROJECT_DIR$/src/AppWithRedux/hooks/useAppWithRedux.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/addItemForm.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/integration/addItemForm.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppWithRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppWithRedux/AppWithRedux.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/AppWithRedux.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/AppWithRedux.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="PostCSS File" />
       </list>
     </option>
   </component>
@@ -37,28 +37,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aleksey/Desktop/it-incubator/Todolist/src/stories&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;C:/Users/Aleksey/Desktop/it-incubator/Todolist/node_modules/react-scripts&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Aleksey\\Desktop\\it-incubator\\Todolist\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Aleksey\\Desktop\\it-incubator\\Todolist\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Aleksey/Desktop/it-incubator/Todolist/src/stories",
+    "list.type.of.created.stylesheet": "PostCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Users/Aleksey/Desktop/it-incubator/Todolist/node_modules/react-scripts",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Aleksey\\Desktop\\it-incubator\\Todolist\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "ts.external.directory.path": "C:\\Users\\Aleksey\\Desktop\\it-incubator\\Todolist\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Aleksey\Desktop\it-incubator\Todolist\src\stories" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aleksey\Desktop\it-incubator\Todolist\src\AppWithRedux" />
     </key>
   </component>
   <component name="RunManager" selected="Jest.tasks-reducer.test.ts">
@@ -113,10 +117,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.jest:integration" />
         <item itemvalue="npm.storybook" />
         <item itemvalue="npm.test" />
-        <item itemvalue="npm.start" />
         <item itemvalue="Jest.tasks-reducer.test.ts" />
       </list>
     </recent_temporary>
@@ -153,7 +157,9 @@
       <workItem from="1687195140730" duration="1632000" />
       <workItem from="1687196820259" duration="5298000" />
       <workItem from="1687286152633" duration="2085000" />
-      <workItem from="1687290835669" duration="712000" />
+      <workItem from="1687290835669" duration="1493000" />
+      <workItem from="1687624143180" duration="33000" />
+      <workItem from="1687893684951" duration="566000" />
     </task>
     <task id="LOCAL-00001" summary="Added opportunity add todo lists and rename title todo list with  title tasks">
       <created>1683654782127</created>
@@ -253,7 +259,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687201696506</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Installed and learned Snapshot tests">
+      <created>1687291713535</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687291713535</updated>
+    </task>
+    <task id="LOCAL-00016" summary="wsedagawr">
+      <created>1687624170196</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687624170196</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +302,8 @@
     <MESSAGE value="Install redux, created and learn redux/store, 3 App (useState, useReducer and Redux) and 2 Todolist (simple and with Redux)" />
     <MESSAGE value="Made optimization, created and learned useCallback and memo (equal React.memo), created new component inside Todolist for Buttons MIU to add memo for optimization, created Task component and relocated logic for tasks inside him" />
     <MESSAGE value="Installed and learned storybook, created stories for AddItemForm, Task and EditableSpan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Installed and learned storybook, created stories for AddItemForm, Task and EditableSpan" />
+    <MESSAGE value="Installed and learned Snapshot tests" />
+    <MESSAGE value="wsedagawr" />
+    <option name="LAST_COMMIT_MESSAGE" value="wsedagawr" />
   </component>
 </project>
