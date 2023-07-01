@@ -4,64 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24b16dbf-0f37-440f-9f30-0643e13c6bab" name="Changes" comment="Installed axios lib, created and learned get and post requests">
-      <change afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="24b16dbf-0f37-440f-9f30-0643e13c6bab" name="Changes" comment="фыапфыпфып">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/__image_snapshots__/add-item-form-test-js-add-item-form-base-example-visually-looks-correct-1-snap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/addItemForm.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/jest.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppWithReducers.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppWithRedux/AppWithRedux.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppWithRedux/hooks/useAppWithRedux.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/EditableSpan.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/tasks-reducer.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tasks-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolists-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolists-tasks-reducer.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/user-reducer.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/user-reducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/AddItemForm.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/AppWithRedux.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.stories.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/EditableSpan.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Introduction.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Page.stories.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/ReduxStoreProviderDecorator.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Task.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/code-brackets.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/colors.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/comments.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/direction.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/flow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/plugin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/repo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/stackalt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,6 +158,9 @@
       <workItem from="1687624143180" duration="33000" />
       <workItem from="1687893684951" duration="914000" />
       <workItem from="1687976246868" duration="3095000" />
+      <workItem from="1688148412767" duration="76000" />
+      <workItem from="1688228678480" duration="35000" />
+      <workItem from="1688498351808" duration="1961000" />
     </task>
     <task id="LOCAL-00001" summary="Added opportunity add todo lists and rename title todo list with  title tasks">
       <created>1683654782127</created>
@@ -340,7 +288,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687894549073</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Installed axios lib, created and learned get and post requests">
+      <created>1688148484163</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1688148484163</updated>
+    </task>
+    <task id="LOCAL-00020" summary="фыапфыпфып">
+      <created>1688228706700</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1688228706700</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +334,8 @@
     <MESSAGE value="Installed and learned Snapshot tests" />
     <MESSAGE value="wsedagawr" />
     <MESSAGE value="Learned custom hooks and created custom hook for AppWithRedux" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learned custom hooks and created custom hook for AppWithRedux" />
+    <MESSAGE value="Installed axios lib, created and learned get and post requests" />
+    <MESSAGE value="фыапфыпфып" />
+    <option name="LAST_COMMIT_MESSAGE" value="фыапфыпфып" />
   </component>
 </project>
