@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24b16dbf-0f37-440f-9f30-0643e13c6bab" name="Changes" comment="фыапфыпфып">
+    <list default="true" id="24b16dbf-0f37-440f-9f30-0643e13c6bab" name="Changes" comment="Learned DAL, created folder &quot;api&quot; and relocated logic request for server inside object &quot;todolistAPI&quot;">
+      <change afterPath="$PROJECT_DIR$/src/api/todolist-api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" afterDir="false" />
     </list>
@@ -16,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="PostCSS File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -160,7 +161,7 @@
       <workItem from="1687976246868" duration="3095000" />
       <workItem from="1688148412767" duration="76000" />
       <workItem from="1688228678480" duration="35000" />
-      <workItem from="1688498351808" duration="1961000" />
+      <workItem from="1688498351808" duration="3783000" />
     </task>
     <task id="LOCAL-00001" summary="Added opportunity add todo lists and rename title todo list with  title tasks">
       <created>1683654782127</created>
@@ -302,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688228706700</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Created and learned delete and put requests">
+      <created>1688500439870</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1688500439870</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +344,7 @@
     <MESSAGE value="Learned custom hooks and created custom hook for AppWithRedux" />
     <MESSAGE value="Installed axios lib, created and learned get and post requests" />
     <MESSAGE value="фыапфыпфып" />
-    <option name="LAST_COMMIT_MESSAGE" value="фыапфыпфып" />
+    <MESSAGE value="Created and learned delete and put requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created and learned delete and put requests" />
   </component>
 </project>
