@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24b16dbf-0f37-440f-9f30-0643e13c6bab" name="Changes" comment="Learned DAL, created folder &quot;api&quot; and relocated logic request for server inside object &quot;todolistAPI&quot;">
+    <list default="true" id="24b16dbf-0f37-440f-9f30-0643e13c6bab" name="Changes" comment="Learned method axios.create(),&#10;created const instance inside which method axios.create(), refactored all requests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/todolist-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolist-api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" afterDir="false" />
@@ -162,7 +162,7 @@
       <workItem from="1688148412767" duration="76000" />
       <workItem from="1688228678480" duration="35000" />
       <workItem from="1688498351808" duration="3783000" />
-      <workItem from="1688578597428" duration="1119000" />
+      <workItem from="1688578597428" duration="3652000" />
     </task>
     <task id="LOCAL-00001" summary="Added opportunity add todo lists and rename title todo list with  title tasks">
       <created>1683654782127</created>
@@ -318,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688578623338</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Learned method axios.create(),&#10;created const instance inside which method axios.create(), refactored all requests">
+      <created>1688579952806</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1688579952806</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +361,7 @@
     <MESSAGE value="фыапфыпфып" />
     <MESSAGE value="Created and learned delete and put requests" />
     <MESSAGE value="Learned DAL, created folder &quot;api&quot; and relocated logic request for server inside object &quot;todolistAPI&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learned DAL, created folder &quot;api&quot; and relocated logic request for server inside object &quot;todolistAPI&quot;" />
+    <MESSAGE value="Learned method axios.create(),&#10;created const instance inside which method axios.create(), refactored all requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learned method axios.create(),&#10;created const instance inside which method axios.create(), refactored all requests" />
   </component>
 </project>
